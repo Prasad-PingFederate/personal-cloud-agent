@@ -1,9 +1,10 @@
 @echo off
-title Xiryn Daily Sync - Prasad-PingFederate
+title Personal Cloud Agent - Daily Sync
 color 0B
 echo ========================================================
-echo   Syncing Xiryn with Latest Upstream Updates
+echo   Syncing Personal Cloud Agent with Upstream Updates
 echo   Account: Prasad-PingFederate (prasad.dammai94@gmail.com)
+echo   Repo: personal-cloud-agent
 echo ========================================================
 echo.
 cd /d "%~dp0"
@@ -19,6 +20,6 @@ git push origin main
 
 echo.
 echo ========================================================
-echo   Sync Complete! Your personal cloud agent is up to date.
+echo   Sync Complete! Personal Cloud Agent is up to date.
 echo ========================================================
 pause
